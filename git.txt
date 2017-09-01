@@ -1,0 +1,22 @@
+
+
+git init
+
+git remote add origin git@github.com:UnicornIsBlack/python.git
+
+git stash
+
+
+放弃本地修改，直接覆盖
+git reset --hard
+
+
+git pull --rebase origin master
+
+git add *
+
+git commit -m ""
+
+
+git push -u origin master
+
